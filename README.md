@@ -22,8 +22,19 @@ n은 레벨
 
 # 트리(Tree)2
 ● 전이진 트리(Complete Binary Tree)
+
 전이진 트리는 노드의 수가n개일 때, 정이진 트리의 각 노드에 붙힌1~n의 일련번호와 1:1 대응되는 트리를 말한다.
 
 ※ 중간에 빈 부분이 있으면 전이진 트리가 될 수 없다.
 
 ![image](https://user-images.githubusercontent.com/126844596/227134706-bc702a03-5192-412e-9ad4-afe2153a47cc.png)
+
+● 사향 이진 트리(Skewed Binary Tree)
+사향 이진 트리는 루트 노드로 부터 왼쪽 또는 오른쪽으로만 기울어진 트리, 즉 왼쪽 또는 오른쪽 자식이 없는 노드들로 만 구성된 트리다.
+
+-왼쪽 사향 이진 트리: 오른쪽 자식이 없는 노드들로 만 구성된 트리
+
+-오른쪽 사향 이진 트리: 왼쪽 자식이 없는 노드들로 만 구성된 트리
+
+![image](https://user-images.githubusercontent.com/126844596/227135687-3947f9d2-096b-42d1-be8a-9ee64ccf66f0.png)
+
